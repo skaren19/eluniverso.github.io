@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+                <a href="index.html" id="logo" class="logo">
+                    <img src="./Imagenes/universologo.png" alt="Logo Universo">
+                </a>
+                <button class="toggle">
+                    <i class="bi bi-list"></i>
+                </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="./Elementos/elementos.html" class="nav-menu-link nav-link">¿QUÉ LO FORMA?</a></li>
+                <li class="nav-menu-item"><a href="#Teoría" class="nav-menu-link nav-link">TEORIA BIG BANG</li ></a>
+                <li class="nav-menu-item"><a href="./La Via Lactea/vialactea.html" class="nav-menu-link nav-link">LA VIA LACTEA</li></a>
+                <li class="nav-menu-item"><a href="./Sistema Solar/sistemasolar.html" class="nav-menu-link nav-link">SISTEMA SOLAR</li></a>
+                <li class="nav-menu-item"><a href="./Agujeros Negros/agujerosnegros.html" class="nav-menu-link nav-link">AGUJEROS NEGROS</li></a>
+            </ul>
+        </nav>
+    </header>
+    <div class="presentacion">
+        <h2>
+            Existen tantos átomos en una sola molécula de tu ADN como existen estrellas en una galaxia promedio. Somos, cada uno de nosotros, un pequeño universo. (Neil deGrasse Tyson)
+        </h2>
+    </div>
+
+<div class="contenedor">
+    <div class="caja">
+        <img src="./Imagenes/quees.jpg" alt="Que es el universo">
+        <h1>¿Qué es?</h1> 
+        <p>El universo lo es todo, define la NASA. “Incluye el espacio y toda su materia y energía. Incluso abarca el tiempo mismo y, por supuesto, te incluye a ti”.
+         El universo es el conjunto de todas las entidades físicamente detectables que interactúan entre ellas dentro del espacio-tiempo de acuerdo a las leyes físicas definidas.
+         Su estudio, en las mayores escalas, es el objeto de la cosmología, disciplina basada en la astronomía y la física, en la cual se describen todos los aspectos de este universo con sus fenómenos.
+        </p>
+    </div>
+   
+    <div class="caja">
+        <img src="./Imagenes/origen.jpg" alt="Teoria del Big Bang">
+        <h1>¿Cómo surgió?</h1>
+        <p>El Big Bang es la forma en  que los astrónomos explican el origen del Universo. Esta teoría dice que el Universo comenzó como un solo punto que fue expandiéndose hasta constituir, progresivamente, cada uno de los componentes existentes.
+        </p>
+    </div>
+  
+    <div class="caja">
+        <img src="./Imagenes/forma.jpg" alt="Formas del universo">
+        <h1>¿Cual es su forma?</h1>
+        <p>Lo primero sería tomar la teoría de la relatividad general. De acuerdo con ella, hay tres configuraciones que el cosmos podría adoptar: plano como una hoja de papel, cerrado como una esfera o abierto como una silla de montar.
+         La estructura del Universo depende solo de dos factores, los cuales son su densidad y su velocidad de expansión.
+         Según lo que dijeron los expertos a Live Science, varias líneas de evidencia apuntan al Universo plano: la luz sobrante del Big Bang, la tasa de expansión del universo en diferentes lugares y la forma en que el universo «se ve» desde diferentes ángulos.
+        </p>
+    </div>
+</div>
+
+<div class="contenedor">
+      <div class="caja">
+        <img src="./Imagenes/1.jpg"  alt="Luna">
+        <h1>¿Sabías que?</h1>
+        <div id="contenido">
+        <p>Cada año la Luna se aleja 3,8 cm de la tierra.
+         Podría provocar -en unos pocos miles de millones de años- que la Tierra se vuelva muy inestable. ¿Por qué sucede esto? La Luna genera mareas en los océanos de la Tierra y las mareas “consumen” energía por rozamiento. Y como el rozamiento es lo que frena la rotación de la Tierra, la luna retrocede. En resumen, la Luna se ve empujada hacia afuera y hace que su órbita sea más grande.Es un proceso imparable.
+        </p>
+        </div>
+        <button onclick="muestra_oculta('contenido')" class="btn btn primary" form="contenido" >+</button>
+      </div>
+
+      <div class="caja">
+        <img src="./Imagenes/2.jpg" alt="agujeronegro">
+          <h1>¿Sabías que?</h1>
+          <div id="contenido2">
+          <p>En el centro de nuestra Galaxia se encuentra un Agujero Negro Supermasivo llamado Sagitario A. Tiene más de un millón de veces la masa del Sol. Y no, no seremos absorbidos por él.
+          </p>
+          </div>
+        <button onclick="muestra_oculta('contenido2')" class="btn btn primary" form="contenido2" >+</button>
+      </div>
+
+      <div class="caja">
+        <img src="./Imagenes/3.jpg"  alt="planetas">
+          <h1>¿Sabías que?</h1>
+          <div id= "contenido3">
+          <p>Para el 20 de agosto de 2022, habían  7837 planetas detectados y solo 5151 de ellos confirmados en 3800 sistemas, se han descubierto tan solo el 0,0000008% de todos los planetas de la galaxia</p>
+        </div>
+      </div>
+      <button onclick="muestra_oculta('contenido3')" class="btn btn primary" form="contenido3" >+</button> 
+    </div>
+
+
+
+<div class="cajabig">
+    <h1>Teoría del Big Bang</h1>
+</div>
+    <div id="Teoría">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QpVnJBlD3ws?si=BPDGYRxatYsa7Fiv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9vTC8co9YAA?si=n0JeFCBBr6KPh_J5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+   
+    <footer>
+        <p>Una publicación de Karen Anali Morales García. Todos los derechos reservados. 2024 
+
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
